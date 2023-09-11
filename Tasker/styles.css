@@ -12,6 +12,12 @@ nav{
     align-items: center;
 }
 
+h2{
+    color: #000000;
+    font-size: 2rem
+}
+
+
 a{
     text-decoration: none;
     color: #707070;
@@ -93,7 +99,73 @@ button{
     margin: 10px 0 10px 0;
 }
 
-.Clients h2{
-    color: #202020;
-    font-size: 2rem
+
+/* ============== FEATURES ======= */
+
+.Features{
+    display: grid;
+    background-color: #ededed;
+    grid-template-areas: 
+    'featureLeft featureBox1 featureBox2';
+    padding: 20px 100px 20px 100px;
+    gap: 1em;
+}
+
+.box{
+    background-color: #fff;
+    border: 2px solid;
+    width: 160px;
+    height: 180px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.boxColor {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-Color-individual1{
+    background-color: #FE3D3B;
+}
+
+.box-Color-individual2{
+    background-color: #15D088;
+}
+
+.box-Color-individual3{
+    background-color: #0086D5;
+}
+
+.box-Color-individual4{
+    background-color: #FFB601;
+}
+
+.boxImg {
+    height: 30px;
+    width: 30px;
+}
+
+.featureBox2{
+    margin-top: 30px;
+}
+
+.m-0{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.featureLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
