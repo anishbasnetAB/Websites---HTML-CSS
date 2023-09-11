@@ -1,0 +1,99 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    margin: 0;
+}
+
+nav{
+    display: grid;
+    grid-template-areas: 
+    'logo navItems navItemRight';
+    margin: 30px 100px 20px 100px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #707070;
+    margin: 0 20px;
+    font-size: 1rem;
+}
+
+.navItemRight{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+button{
+    background-color: #0086D5;
+    color: #fff;
+    border: none;
+    height: 2rem;
+    width: 7.5rem;
+    border-radius: 5px;
+}
+
+/* ================= MAIN ================= */
+
+.main{
+    background-color: #ededed;
+    display: grid;
+    grid-template-areas: 
+    'mainLeft mainRight';
+    gap: 12rem;
+    padding: 50px 100px 0px 100px;
+}
+
+@media (max-width:600px){
+    .main{
+        grid-template-areas: 
+        'mainLeft ';
+    }
+    .mainRight{
+        display: none;
+    }
+    .mainLeft h1{
+        font-size:px;
+    }
+    .Clients img{
+        width: 300px;
+    }
+}
+
+.mainLeft{
+    grid-area: mainLeft;
+}
+
+.mainRight{
+    grid-area: mainRight;
+}
+
+.main h1{
+    color: black;
+    font-size:3rem;
+}
+
+.emailInput{
+    height: 30px;
+    width: 220px;
+    border: #575757;
+    margin-right: 10px;
+}
+
+.Clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.Clients img{
+    margin: 10px 0 10px 0;
+}
+
+.Clients h2{
+    color: #202020;
+    font-size: 2rem
+}
