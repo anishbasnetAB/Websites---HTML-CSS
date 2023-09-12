@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dysey</title>
+</head>
+<body>
+    <header>
+        <nav class="flex flex-row justify-between items-center my-5 mx-10">
+            <img src="assets/Odyssey.png" alt="logo">
+            <div class="navLinks flex flex-row justify-between">
+                <ul class="flex flex-row items-center justify-between mx-10">
+                    <li class="mx-5"><a href="#">Stay Connected</a></li>
+                    <li class="mx-5"><a href="#">Education</a></li>
+                    <li class="mx-5"><a href="#">Community</a></li>
+                    <li class="mx-5"><a href="#">About us</a></li>
+                </ul>
+                <button class="bg-black text-white px-4 py-2 rounded-md SignIn">Sign in</button>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
