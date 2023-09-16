@@ -169,3 +169,29 @@ button{
     flex-direction: column;
     justify-content: center;
 }
+
+/* ====== remove  === */
+
+.box-Color-individual4{
+    background-color: #FFB601;
+}
+
+.boxImg {
+    height: 30px;
+    width: 30px;
+}
+
+.featureBox2{
+    margin-top: 30px;
+}
+
+.m-0{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.featureLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
